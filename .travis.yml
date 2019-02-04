@@ -1,0 +1,10 @@
+language: python
+python:
+        - "3.6"
+        - "3.7-dev"
+# command to install dependencies
+install:
+        - pip install -r requirments.txt
+# command to run tests
+Script:
+        - pytest
